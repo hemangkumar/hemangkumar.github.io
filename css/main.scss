@@ -11,6 +11,9 @@ text-transform: uppercase;
 font-weight: bold;
 color: #666;
 }
+#story-title{
+  padding-left: 1em;
+}
 .education-year{
   display: block;
 margin-top: 10px;
@@ -47,7 +50,7 @@ text-transform: uppercase;
 }
 .postContent{
   text-align: center;
-
+padding-right: 2em;
 }
 .quote-content{
   font-size: 14px;
