@@ -18,7 +18,7 @@ layout: default
     <div class="row">
       <center>
       <div class="stories-title">
-        <span class="stTitle">STORIES</span>
+        <div class="stTitle">STORIES</div>
         <div class="stories-caption">
           wanderer's journal about living, non living &amp; animation
         </div>

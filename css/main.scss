@@ -12,7 +12,7 @@ font-weight: bold;
 color: #666;
 }
 #story-title{
-  padding-left: 1em;
+
 }
 .education-year{
   display: block;
@@ -50,7 +50,10 @@ text-transform: uppercase;
 }
 .postContent{
   text-align: center;
-padding-right: 2em;
+
+}
+.postcontentmain{
+
 }
 .quote-content{
   font-size: 14px;
@@ -108,21 +111,26 @@ background: #fff;
 .resumecont{
     width: 800px !important;
 }
+.firstletter{
+  font-size: 40px;
+  padding: 2px;
+  font-weight: 800;
+}
 .post-title{
-  font-family: "PT Sans";
-font-weight: 900;
+  font-family: "Futura Std Medium";
 font-size: 70px;
 text-align: center;
+letter-spacing: 5px;
+text-indent: 10px;
+line-height: 1.3em;
 }
 .quote-content-title{
 
 
 }
 .post-content{
-  font-family: "Source Sans Pro";
-font-weight: 300;
-font-size: 20px;
-
+  font-family: "Gilda Display";
+font-size: 24px;
 text-align: justify;
 }
 .post-meta{
@@ -142,8 +150,9 @@ letter-spacing: 2px;
 text-indent: -2px;
 text-transform: uppercase;
 }
-.postCont{
-
+.home-page, .projects-page, .stories-page, .about-page{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 .postLink{
   text-transform: uppercase;
@@ -197,10 +206,10 @@ text-indent: 0.5em;
  text-align: center;
 }
 .stories-caption{
- font-family: 'Cardo';
+  font-family: 'Gilda Display';
  font-size: 18px;
  letter-spacing: 0.2em;
- text-indent: 0.2em;
+ text-indent: 0.4em;
 }
 
 .categories-on{
@@ -316,6 +325,7 @@ src: url("//d2xzbo2ehns0vv.cloudfront.net/media/wysiwyg/futura-fonts/FuturaStd-H
   }
   .exmarks{
     color: black !important;
+    padding: 2em;
   }
   .wel{
     font-size: 16px !important;
