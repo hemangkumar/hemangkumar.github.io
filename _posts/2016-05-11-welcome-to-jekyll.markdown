@@ -2,7 +2,7 @@
 layout: post
 title:  "jekyll fiesta"
 date:   2016-05-11 13:44:37 +0530
-categories: jekyll
+categories: general
 author: "Hemang Kumar"
 ---
 

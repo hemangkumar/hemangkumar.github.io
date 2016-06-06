@@ -14,7 +14,7 @@ layout: default
 }
 </style>
 <section id="story-title">
-  <div class="container">
+  <div class="">
     <div class="row">
       <center>
       <div class="stories-title">

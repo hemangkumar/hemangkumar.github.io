@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Resume Matters {day 2}"
+title:  "Resume Matters"
 date:   2016-05-11 13:44:37 +0530
-categories: jekyll
+categories: "Jekyll"
 author: "Hemang Kumar"
 ---
 
