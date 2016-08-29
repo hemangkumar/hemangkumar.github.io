@@ -24,16 +24,15 @@ layout: default
         </div>
       </div>
 
-    </div>
-  </div>
-</section>
+  
 {% for post in site.posts%}
+{%  if  post.categories contains 'project' %}{% else %}
 <div class="post postContent">
 
 
 
   <div class="postTitle">
-  <a class='postLink' href="{{post.url}}">{{post.title}}</a>
+  <a class='postLink' href="{{ post.url }}">{{post.title}}</a>
   </div>
   <div class="postExt">
  {{ post.content | strip_html | truncatewords:10}}
@@ -60,6 +59,6 @@ layout: default
     </div>
   </div>
 </div>
-
+{%  endif %}
 
 {% endfor %}
